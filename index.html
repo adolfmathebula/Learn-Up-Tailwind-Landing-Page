@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learn-Up | Online Education</title>
+    <meta name="viewpomrt" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn-Up Education Online School">
+    <meta name="keywords"
+        content="Data Science, Machine Learning, Web Design, Web Development, Digital Marketing, Graphic Design, Online Learning">
+    <meta name="author" content="Ad
+    olf Mathebula">
+    <!-- www.adolfmathebula.co.za -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link href="/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav
+            class="relative w-full bg-white flex flex-row justify-between align-center py-4 px-12 border-b border-lightgray">
+            <h2 class="text-main font-bold text-3xl self-center hover:text-blue cursor-pointer">LEARN-UP</h2>
+            <div class="hidden md:flex justify-center align-center self-center text-main gap-4">
+                <a href="index.html" class="hover:text-blue">Home</a>
+                <a href="about.html" class="hover:text-blue">About</a>
+                <a href="#courses" class="hover:text-blue">Courses</a>
+                <a href="#instructors" class="hover:text-blue">Instructors</a>
+                <a href="#resources" class="hover:text-blue">Resources</a>
+                <a href="contact.html" class="hover:text-blue">Contact</a>
+            </div>
+            <a href="#resources"
+                class="hidden md:block py-2 px-5 text-white bg-main rounded-full baseline self-center hover:bg-orange hover:text-main">Sign
+                Up</a>
+
+            <!-- hamburger icon -->
+            <div class="flex md:hidden">
+                <i id="menu-btn"
+                    class="fa-solid fa-bars flex text-main text-3xl self-center md:hidden cursor-pointer"></i>
+
+                <!-- Mobile Menu -->
+                <div class="md:hidden">
+                    <div id="menu"
+                        class="absolute hidden flex flex-col items-center w-[300px]  text-main bg-white self-end py-8 mt-10 space-y-4 font-bold top-4 right-1 z-40 sm:w-auto sm:self-center drop-shadow-xl shadow-black ">
+                        <a href="index.html" class="hover:text-blue">Home</a>
+                        <a href="about.html" class="hover:text-blue">About</a>
+                        <a href="#courses" class="hover:text-blue">Courses</a>
+                        <a href="#instructors" class="hover:text-blue">Instructors</a>
+                        <a href="#resources" class="hover:text-blue">Resources</a>
+                        <a href="contact.html" class="hover:text-blue">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Hero Section -->
+
+        <div
+            class="flex flex-col justify-center items-center w-full min-h-[450px] px-20 pt-20 pb-10 bg-[url('/images/header2.png')] bg-cover bg-no-repeat bg-center md:pb-20">
+            <h1 class="text-black font-black text-4xl text-center text-white drop-shadow-sm shadow-black md:text-6xl">
+                Step Up Your
+                Expertise With Our Specialized Training
+            </h1>
+            <p class="my-6 text-center text-white md:px-20">Take your career to the next level with our expert-led
+                training programs </p>
+            <div class="flex flex-row gap-4">
+                <button class="bg-blue text-white py-3 px-5 rounded-3xl hover:bg-mainhover">Get
+                    Started</button>
+                <button class="bg-white text-main py-3 px-5 rounded-3xl hover:bg-mainhover hover:text-white">Our
+                    Courses</button>
+            </div>
+        </div>
+
+        <!-- Featured Section -->
+        <span id="courses"></span>
+
+        <section class="mt-16">
+            <!-- Featured Intro -->
+            <div class="container flex flex-col gap-8 px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+                <div class="flex flex-col space-y-3 basis-[40%]">
+                    <h2 class="max-01w-md text-main text-4xl font-bold text-center md:text-left">Featured Courses</h2>
+                    <p class="mam-w-small text-center text-main md:text-left">Our popular and highly-regarded
+                        courses.
+                        Whether you're looking to upskill in your current job, start a new career, or simply learn
+                        something new, we have something for everyone. <span class="text-orange">Our courses cover a
+                            wide range of subjects, taught
+                            by expert instructors for top-quality education.</span>
+                    </p>
+                </div>
+
+                <!-- Courses List -->
+
+                <div class="flex flex-col basis-[60%]">
+                    <div class="flex flex-col w-full mb-3">
+                        <h2 class="font-bold uppercase text-main"><span
+                                class="rounded-full font-xs bg-main text-white py-1 px-3 mr-3">1</span>Data
+                            Science
+                            and Machine Learning</h2>
+                        <p class="text-sm pl-7 mt-2">A comprehensive course covering the latest techniques and tools in
+                            data
+                            science and machine
+                            learning, including programming languages like Python and data analysis techniques. <span
+                                class="text-red italic cursor-pointer">Learn More...</span>
+                        </p>
+                    </div>
+                    <div class="flex flex-col w-full mb-3 mt-2">
+                        <h2 class="font-bold uppercase text-main"><span
+                                class="rounded-full font-xs bg-main text-white py-1 px-3 mr-3">2</span>Web
+                            Development
+                        </h2>
+                        <p class="text-sm pl-7 mt-2">A hands-on course teaching the skills and technologies needed to
+                            build
+                            dynamic websites and
+                            web applications, including HTML, CSS, JavaScript, and modern frameworks like React. <span
+                                class="text-red italic cursor-pointer">Learn More...</span>
+                        </p>
+                    </div>
+                    <div class="flex flex-col w-full mb-3 mt-2">
+                        <h2 class="font-bold uppercase text-main"><span
+                                class="rounded-full font-xs bg-main text-white py-1 px-3 mr-3">3</span>Digital
+                            Marketing</h2>
+                        <p class="text-sm pl-7 mt-2">A course that covers the key concepts and tactics used in digital
+                            marketing,
+                            including search
+                            engine optimization (SEO), social media marketing, email marketing, and Google Analytics.
+                            <span class="text-red italic cursor-pointer">Learn More...</span>
+                        </p>
+                    </div>
+                    <div class="flex flex-col w-full mb-3 mt-2">
+                        <h2 class="font-bold uppercase text-main"><span
+                                class="rounded-full font-xs bg-main text-white py-1 px-3 mr-3">4</span>Graphic Design
+                        </h2>
+                        <p class="text-sm pl-7 mt-2">The course covers graphic design principles in depth. Students will
+                            learn design softwares such as Adobe Photoshop, Illustrator and InDesign and learn how to
+                            thrive as a freelencer
+                            <span class="text-red italic cursor-pointer">Learn More...</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift Section -->
+
+        <section class="flex flex-col gap-8 w-full px-14 py-20 mb-20 mt-12 bg-main md:flex-row md:px-28">
+            <div class="flex flex-col w-full md:w-1/2">
+                <h1 class="text-orange font-bold text-3xl">Free Seth Godin Book</h1>
+                <p class="text-white font-light pt-6">Get Seth Godin's "Permission Marketing" book when you register
+                    for our Digital Marketing diploma. Permission Marketing, the marketing
+                    classic, enables advertisers to shape their message as per clients’ eagerness. Seth rejects the idea
+                    of ‘Interruption Marketing’ where organizations offer the item by pushing the thought like a pushy
+                    sales representative. The book will be delievered to you as soon as the classes starts
+                </p>
+                <button
+                    class="bg-white text-main rounded-3xl hover:bg-mainhover hover:text-white w-fit py-3 px-5 mt-8 ml-4">Register
+                    Now</button>
+            </div>
+            <div class="flex justify-center w-full align-center md:w-1/2">
+                <img src="/images/Seth.jpg" alt="free book" width="250px" class="transform rotate-12" />
+            </div>
+        </section>
+
+        <!-- Instructors Sections -->
+        <span id="instructors"></span>
+
+        <section class="flex flex-col align=center w-full px-14 my-12">
+            <h1 class="text-center text-3xl font-bold w-full text-orange mb-4">Our Instructors</h1>
+            <p class="text-center text-sm w-full text-main mb-8">Meet our expert instructors committed to providing
+                top-notch learning and igniting passion for knowledge</p>
+            <div class="flex flex-col w-full justify-center align-center gap-6 md:flex-row">
+                <div class="relative">
+                    <img src="images/instructor1.png" alt="instructor" class="w-full" />
+                    <span
+                        class="absolute bottom-6 left-6 text-white w-fit bg-maintransparent px-4 py-2 border-l-4 border-orange">Data
+                        Science<br>Thabo K. Kekana</span>
+                </div>
+                <div class="relative">
+                    <img src="images/instructor2.png" alt="instructor" class="w-full" />
+                    <span
+                        class="absolute bottom-6 left-6 text-white w-fit bg-maintransparent px-4 py-2 border-l-4 border-orange">Digital
+                        Marketing<br>Lucia Mulaudzi</span>
+                </div>
+                <div class="relative">
+                    <img src="images/instructor3.png" alt="instructor" class="w-full" />
+                    <span
+                        class="absolute bottom-6 left-6 text-white w-fit bg-maintransparent px-4 py-2 border-l-4 border-orange">Web
+                        Development<br>Steven P. Smith</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <span id="resources"></span>
+
+        <section
+            class="flex flex-col px-8 py-12 mt-20 mb-1 w-full bg-orange md:flex-row md:px-20 md:py-32 md:justify-around">
+            <div>
+                <h2 class="text-3xl text-main">Subscribe</h2>
+                <p class="text-white">To Our Newsletter</p>
+            </div>
+            <div class="flex flex-col mt-6 md:mt-0">
+                <input type="text" class="max-h-sm px-4" placeholder="your email..." />
+                <input type="submit"
+                    class="bg-main text-white hover:bg-mainhover hover:text-white w-fit py-1 px-5 mt-2" />
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="flex flex-col bg-main px-16 py-8 text-white text-sm md:flex-row md:justify-between">
+            <div>
+                &copy; 2023 Learn-Up Education. All Rights Reserved
+            </div>
+            <div>
+                Built and Designed By: <a href="https://adolfmathebula.co.za" class="text-orange">Adolf Mathebula</a>
+            </div>
+        </footer>
+
+
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
