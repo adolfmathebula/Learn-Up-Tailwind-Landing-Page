@@ -4,17 +4,15 @@ module.exports = {
   theme: {
     screens: {
       'sm': '480px',
-      // => c { ... }
       'md': '768px',
-      // => @media (min-width: 768px) { ... }
       'lg': '976px',
       'xl': '1440px',
       '2xl': '1536px',
      
     },
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
+      'transparent': 'transparent',
+      'current': 'currentColor',
       'white': '#ffffff',
       'back': '#000000',
       'main':'#1e293b',
